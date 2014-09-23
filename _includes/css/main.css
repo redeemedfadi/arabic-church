@@ -79,6 +79,10 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.white{
+    color: #FFF;
+}
+
 header {
     text-align: center;
     color: #fff;
@@ -442,4 +446,8 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.align-right{
+    text-align: right;
 }

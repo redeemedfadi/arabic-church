@@ -1,0 +1,42 @@
+<section class="success" id="where">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>
+          Where We Meet
+        </h2>
+        <hr class="star-light" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="text-right">
+          <p>Joy Sanctuary</p>
+          <p>First Baptist Church of Lilburn</p>
+          <p>
+            <a class="text-primary white" target="google" href="https://www.google.com/maps/place/First+Baptist+Church+of+Lilburn/@33.889947,-84.14137,17z/data=!3m1!4b1!4m2!3m1!1s0x88f5a4f9cc26d7dd:0x84aaf8788887a4da">
+              {% for adress in site.address %}
+                {{ adress.line }} <br>
+              {% endfor %}
+            </a>
+          </p>
+          <p>
+            <a class="text-primary white" target="google" href="https://www.google.com/maps/place/First+Baptist+Church+of+Lilburn/@33.889947,-84.14137,17z/data=!3m1!4b1!4m2!3m1!1s0x88f5a4f9cc26d7dd:0x84aaf8788887a4da">
+              Google Map Directions
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <a class="text-primary white" target="google" href="https://www.google.com/maps/place/First+Baptist+Church+of+Lilburn/@33.889947,-84.14137,17z/data=!3m1!4b1!4m2!3m1!1s0x88f5a4f9cc26d7dd:0x84aaf8788887a4da">
+          <img class="img-responsive" src="http://maps.googleapis.com/maps/api/staticmap?center=33.8898,-84.1415&size=200x200&zoom=15&markers=33.8898,-84.1415&scale=2" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-2">
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
